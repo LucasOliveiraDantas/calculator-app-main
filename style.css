@@ -30,7 +30,7 @@ ul{
   .grid-container{
     display: grid;
     grid-template-columns: 1fr;
-    margin: 1.8rem 1.5rem;
+    margin: 1.8rem 0.5rem;
     width: 100%;
   }
 }
