@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main th-s-1">
+      <div class="grid-container">
+        <div class="grid-row-hr">
+          <div class="col hr-col-1">
+            <h1 class="title-logo">calc</h1>
+          </div>
+          <div class="col hr-col-2">
+            <p class="th-desc">theme</p>
+            <div class="th-sec">
+              <div class="th-info">
+                <p class="th-info-item">1</p>
+                <p class="th-info-item">2</p>
+                <p class="th-info-item">3</p>
+              </div>
+              <div class="th-switch">
+                <input type="checkbox" class="th-1 th-select" />
+                <input type="checkbox" class="th-2 th-select" />
+                <input type="checkbox" class="th-3 th-select" />
+                <div class="cir-switch"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-row-output">
+          <input
+            id="output-result"
+            type="text"
+            disabled="disabled"
+            aria-label="output-result"
+          />
+        </div>
+        <div class="grid-row-keyboard">
+          <button onclick="valor('value','7')" class="key-keyboard">7</button>
+          <button onclick="valor('value','8')" class="key-keyboard">8</button>
+          <button onclick="valor('value','9')" class="key-keyboard">9</button>
+          <button onclick="valor('acao','d')" class="key-keyboard key-del">
+            Del
+          </button>
+
+          <button onclick="valor('value','4')" class="key-keyboard">4</button>
+          <button onclick="valor('value','5')" class="key-keyboard">5</button>
+          <button onclick="valor('value','6')" class="key-keyboard">6</button>
+          <button onclick="valor('acao','+')" class="key-keyboard">+</button>
+
+          <button onclick="valor('value','1')" class="key-keyboard">1</button>
+          <button onclick="valor('value','2')" class="key-keyboard">2</button>
+          <button onclick="valor('value','3')" class="key-keyboard">3</button>
+          <button onclick="valor('acao','-')" class="key-keyboard">-</button>
+
+          <button onclick="valor('acao','.')" class="key-keyboard">.</button>
+          <button onclick="valor('value','0')" class="key-keyboard">0</button>
+          <button onclick="valor('acao','/')" class="key-keyboard">/</button>
+          <button onclick="valor('acao','*')" class="key-keyboard">x</button>
+
+          <button onclick="valor('acao','c')" class="key-keyboard key-reset">
+            reset
+          </button>
+          <button onclick="valor('acao','=')" class="key-keyboard key-result">
+            =
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
