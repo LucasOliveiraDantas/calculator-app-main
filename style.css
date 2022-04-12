@@ -26,6 +26,14 @@ ul{
   margin: 1.8rem 1.5rem;
   width: 100%;
 }
+@media screen and (min-width: 360px){
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1.8rem 1.5rem;
+    width: 100%;
+  }
+}
 .grid-row-hr{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
