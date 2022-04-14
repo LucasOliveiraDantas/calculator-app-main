@@ -18,11 +18,12 @@ ul {
   list-style-type: none;
 }
 /*///////////////////////////////////////*/
+
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 760px;
 }
 .th-s-1 {
   background-color: var(--color-bg-main);
