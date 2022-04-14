@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="main th-s-1">
+    <main class="main th-s-1" id="main-color">
       <div class="grid-container">
         <div class="grid-row-hr">
           <div class="col hr-col-1">
@@ -38,12 +38,14 @@
                 <p class="th-info-item">2</p>
                 <p class="th-info-item">3</p>
               </div>
-              <div class="th-switch">
-                <input type="checkbox" class="th-1 th-select" />
-                <input type="checkbox" class="th-2 th-select" />
-                <input type="checkbox" class="th-3 th-select" />
-                <div class="cir-switch"></div>
-              </div>
+              <button
+                onclick="ChangeT()"
+                class="th-1"
+                id="th-switch"
+                aria-label="button change theme"
+              >
+                <span class="cir-switch"></span>
+              </button>
             </div>
           </div>
         </div>

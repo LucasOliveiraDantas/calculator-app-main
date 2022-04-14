@@ -1,0 +1,37 @@
+.th-s-2 {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.th-s-2 .title-logo {
+  color: hsl(60, 10%, 19%);
+}
+.th-s-2 .th-desc {
+  color: hsl(60, 10%, 19%);
+}
+.th-s-2 .th-info-item {
+  color: hsl(60, 10%, 19%);
+}
+.th-s-2 .th-1,
+.th-s-2 .th-2,
+.th-s-2 .th-3 {
+  background-color: hsl(0, 5%, 81%);
+}
+.the-s-2 .cir-switch {
+  background-color: hsl(25, 98%, 40%);
+}
+.th-s-2 #output-result {
+  background-color: hsl(0, 0%, 93%);
+  color: hsl(60, 10%, 19%);
+}
+.th-s-2 .grid-row-keyboard {
+  background-color: hsl(0, 5%, 81%);
+}
+.th-s-2 .key-del {
+  background-color: hsl(185, 42%, 37%);
+}
+.th-s-2 .key-reset {
+  background-color: hsl(185, 42%, 37%);
+}
+.th-s-2 .key-result {
+  background-color: hsl(25, 98%, 40%);
+}
