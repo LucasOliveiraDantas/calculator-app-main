@@ -22,7 +22,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 606px;
+  height: auto;
 }
 .th-s-1 {
   background-color: var(--color-bg-main);
