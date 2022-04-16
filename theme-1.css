@@ -1,0 +1,77 @@
+:root {
+  --color-background-main: hsl(222, 26%, 31%);
+  --color-title: hsl(0, 0%, 100%);
+  --color-desc-theme: hsl(0, 0%, 100%);
+  --color-info-theme-switch: hsl(0, 0%, 100%);
+  --color-backgroud-btn-switch: hsl(223, 31%, 20%);
+  --color-circle-switch: hsl(6, 63%, 50%);
+
+  --color-background-output-result: hsl(224, 36%, 15%);
+  --color-text-output-result: hsl(0, 0%, 100%);
+
+  --color-background-keyboard: hsl(223, 31%, 20%);
+  --color-background-key-keyboard: hsl(30, 25%, 89%);
+  --color-shadow-key-keyboard: hsl(28, 16%, 65%);
+  --color-text-key-keyboard: hsl(60, 10%, 19%);
+  --color-background-key-del: hsl(225, 21%, 49%);
+  --color-shadow-key-del: hsl(225, 22%, 36%);
+  --color-text-key-del: hsl(0, 0%, 100%);
+
+  --color-background-key-reset: hsl(225, 21%, 49%);
+  --color-shadow-key-reset: hsl(225, 22%, 36%);
+  --color-text-key-reset: hsl(0, 0%, 100%);
+
+  --color-background-key-result: hsl(6, 63%, 50%);
+  --color-shadow-key-result: hsl(6, 70%, 34%);
+  --color-text-key-result: hsl(0, 0%, 100%);
+}
+
+/*/ /////////////////////////////////ARea header///////*/
+
+.theme-1 {
+  background-color: var(--color-background-main);
+}
+.theme-1 .title {
+  color: var(--color-title);
+}
+.theme-1 .desc-theme {
+  color: var(--color-desc-theme);
+}
+.theme-1 .info-theme-switch {
+  color: var(--color-info-theme-switch);
+}
+.theme-1 .switch {
+  background-color: var(--color-backgroud-btn-switch);
+}
+.theme-1 .circle-switch {
+  background-color: var(--color-circle-switch);
+}
+/*/ /////////////////////////////////ARea result///////*/
+.theme-1 #output-result {
+  background-color: var(--color-background-output-result);
+  color: var(--color-text-output-result);
+}
+/*/ /////////////////////////////////ARea keyboard///////*/
+.theme-1 .area-keyboard {
+  background-color: var(--color-background-keyboard);
+}
+.theme-1 .key-keyboard {
+  background-color: var(--color-background-key-keyboard);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-keyboard);
+  color: var(--color-text-key-keyboard);
+}
+.theme-1 .key-del {
+  background-color: var(--color-background-key-del);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-del);
+  color: var(--color-text-key-del);
+}
+.theme-1 .key-reset {
+  background-color: var(--color-background-key-reset);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-reset);
+  color: var(--color-text-key-reset);
+}
+.theme-1 .key-result {
+  background-color: var(--color-background-key-result);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-result);
+  color: var(--color-text-key-result);
+}

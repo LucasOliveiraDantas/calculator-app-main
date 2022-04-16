@@ -1,37 +1,78 @@
-.th-s-2 {
-  background-color: hsl(0, 0%, 90%);
+:root {
+  --color-background-main-th2: hsl(0, 0%, 90%);
+  --color-title-th2: hsl(60, 10%, 19%);
+  --color-desc-theme-th2: hsl(60, 10%, 19%);
+  --color-info-theme-switch-th2: hsl(60, 10%, 19%);
+  --color-backgroud-btn-switch-th2: hsl(0, 5%, 81%);
+  --color-circle-switch-th2: hsl(25, 98%, 40%);
+
+  --color-background-output-result-th2: hsl(0, 0%, 93%);
+  --color-text-output-result-th2: hsl(60, 10%, 19%);
+
+  --color-background-keyboard-th2: hsl(0, 5%, 81%);
+  --color-background-key-keyboard-th2: hsl(45, 7%, 89%);
+  --color-shadow-key-keyboard-th2: hsl(35, 11%, 61%);
+  --color-text-key-keyboard-th2: hsl(60, 10%, 19%);
+
+  --color-background-key-del-th2: hsl(185, 42%, 37%);
+  --color-shadow-key-del-th2: hsl(185, 58%, 25%);
+  --color-text-key-del-th2: hsl(0, 0%, 100%);
+
+  --color-background-key-reset-th2: hsl(185, 42%, 37%);
+  --color-shadow-key-reset-th2: hsl(185, 58%, 25%);
+  --color-text-key-reset-th2: hsl(0, 0%, 100%);
+
+  --color-background-key-result-th2: hsl(25, 98%, 40%);
+  --color-shadow-key-result-th2: hsl(25, 99%, 27%);
+  --color-text-key-result-th2: hsl(0, 0%, 100%);
 }
 
-.th-s-2 .title-logo {
-  color: hsl(60, 10%, 19%);
+/*/ /////////////////////////////////ARea header///////*/
+
+.theme-2 {
+  background-color: var(--color-background-main-th2);
 }
-.th-s-2 .th-desc {
-  color: hsl(60, 10%, 19%);
+.theme-2 .title {
+  color: var(--color-title-th2);
 }
-.th-s-2 .th-info-item {
-  color: hsl(60, 10%, 19%);
+.theme-2 .desc-theme {
+  color: var(--color-desc-theme-th2);
 }
-.th-s-2 .th-1,
-.th-s-2 .th-2,
-.th-s-2 .th-3 {
-  background-color: hsl(0, 5%, 81%);
+.theme-2 .info-theme-switch {
+  color: var(--color-info-theme-switch-th2);
 }
-.the-s-2 .cir-switch {
-  background-color: hsl(25, 98%, 40%);
+.theme-2 .switch {
+  background-color: var(--color-backgroud-btn-switch-th2);
 }
-.th-s-2 #output-result {
-  background-color: hsl(0, 0%, 93%);
-  color: hsl(60, 10%, 19%);
+.theme-2 .circle-switch {
+  background-color: var(--color-circle-switch-th2);
 }
-.th-s-2 .grid-row-keyboard {
-  background-color: hsl(0, 5%, 81%);
+/*/ /////////////////////////////////ARea result///////*/
+.theme-2 #output-result {
+  background-color: var(--color-background-output-result-th2);
+  color: var(--color-text-output-result-th2);
 }
-.th-s-2 .key-del {
-  background-color: hsl(185, 42%, 37%);
+/*/ /////////////////////////////////ARea keyboard///////*/
+.theme-2 .area-keyboard {
+  background-color: var(--color-background-keyboard-th2);
 }
-.th-s-2 .key-reset {
-  background-color: hsl(185, 42%, 37%);
+.theme-2 .key-keyboard {
+  background-color: var(--color-background-key-keyboard-th2);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-keyboard-th2);
+  color: var(--color-text-key-keyboard-th2);
 }
-.th-s-2 .key-result {
-  background-color: hsl(25, 98%, 40%);
+.theme-2 .key-del {
+  background-color: var(--color-background-key-del-th2);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-del-th2);
+  color: var(--color-text-key-del-th2);
+}
+.theme-2 .key-reset {
+  background-color: var(--color-background-key-reset-th2);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-reset-th2);
+  color: var(--color-text-key-reset-th2);
+}
+.theme-2 .key-result {
+  background-color: var(--color-background-key-result-th2);
+  box-shadow: 0rem 0.23rem 0rem 0rem var(--color-shadow-key-result-th2);
+  color: var(--color-text-key-result-th2);
 }

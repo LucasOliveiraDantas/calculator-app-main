@@ -24,71 +24,106 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="main th-s-1" id="main-color">
-      <div class="grid-container">
-        <div class="grid-row-hr">
-          <div class="col hr-col-1">
-            <h1 class="title-logo">calc</h1>
-          </div>
-          <div class="col hr-col-2">
-            <p class="th-desc">theme</p>
-            <div class="th-sec">
-              <div class="th-info">
-                <p class="th-info-item">1</p>
-                <p class="th-info-item">2</p>
-                <p class="th-info-item">3</p>
-              </div>
+    <main class="theme-1" id="main-color">
+      <div class="container">
+        <div class="area-header">
+          <h1 class="title">calc</h1>
+          <div class="area-theme">
+            <p class="desc-theme">theme</p>
+            <div class="area-switch">
+              <ul class="info-switch">
+                <li><p class="info-theme-switch">1</p></li>
+                <li><p class="info-theme-switch">2</p></li>
+                <li><p class="info-theme-switch">3</p></li>
+              </ul>
               <button
-                onclick="ChangeT()"
-                class="th-1"
-                id="th-switch"
-                aria-label="button change theme"
+                onclick="Change_Theme()"
+                class="switch th-1"
+                id="switch-theme"
+                aria-label="button switch theme"
               >
-                <span class="cir-switch"></span>
+                <div class="circle-switch"></div>
               </button>
             </div>
           </div>
         </div>
-        <div class="grid-row-output">
+        <div class="area-result">
           <input
             id="output-result"
             type="text"
             disabled="disabled"
-            aria-label="output-result"
+            aria-label="output result"
           />
         </div>
-        <div class="grid-row-keyboard">
-          <button onclick="valor('value','7')" class="key-keyboard">7</button>
-          <button onclick="valor('value','8')" class="key-keyboard">8</button>
-          <button onclick="valor('value','9')" class="key-keyboard">9</button>
-          <button onclick="valor('acao','d')" class="key-keyboard key-del">
+        <div class="area-keyboard">
+          <button onclick="calcular('valor', '7' )" class="key-keyboard">
+            7
+          </button>
+          <button onclick="calcular('valor', '8' )" class="key-keyboard">
+            8
+          </button>
+          <button onclick="calcular('valor', '9' )" class="key-keyboard">
+            9
+          </button>
+          <button onclick="calcular('acao', 'd' )" class="key-keyboard key-del">
             Del
           </button>
 
-          <button onclick="valor('value','4')" class="key-keyboard">4</button>
-          <button onclick="valor('value','5')" class="key-keyboard">5</button>
-          <button onclick="valor('value','6')" class="key-keyboard">6</button>
-          <button onclick="valor('acao','+')" class="key-keyboard">+</button>
+          <button onclick="calcular('valor', '4' )" class="key-keyboard">
+            4
+          </button>
+          <button onclick="calcular('valor', '5' )" class="key-keyboard">
+            5
+          </button>
+          <button onclick="calcular('valor', '6' )" class="key-keyboard">
+            6
+          </button>
+          <button onclick="calcular('acao', '+' )" class="key-keyboard">
+            +
+          </button>
 
-          <button onclick="valor('value','1')" class="key-keyboard">1</button>
-          <button onclick="valor('value','2')" class="key-keyboard">2</button>
-          <button onclick="valor('value','3')" class="key-keyboard">3</button>
-          <button onclick="valor('acao','-')" class="key-keyboard">-</button>
+          <button onclick="calcular('valor', '1' )" class="key-keyboard">
+            1
+          </button>
+          <button onclick="calcular('valor', '2' )" class="key-keyboard">
+            2
+          </button>
+          <button onclick="calcular('valor', '3' )" class="key-keyboard">
+            3
+          </button>
+          <button onclick="calcular('acao', '-' )" class="key-keyboard">
+            -
+          </button>
 
-          <button onclick="valor('acao','.')" class="key-keyboard">.</button>
-          <button onclick="valor('value','0')" class="key-keyboard">0</button>
-          <button onclick="valor('acao','/')" class="key-keyboard">/</button>
-          <button onclick="valor('acao','*')" class="key-keyboard">x</button>
+          <button onclick="calcular('valor', '.' )" class="key-keyboard">
+            .
+          </button>
+          <button onclick="calcular('valor', '0' )" class="key-keyboard">
+            0
+          </button>
+          <button onclick="calcular('acao', '/' )" class="key-keyboard">
+            /
+          </button>
+          <button onclick="calcular('acao', '*' )" class="key-keyboard">
+            x
+          </button>
 
-          <button onclick="valor('acao','c')" class="key-keyboard key-reset">
+          <button
+            onclick="calcular('acao', 'c' )"
+            class="key-keyboard key-reset"
+          >
             reset
           </button>
-          <button onclick="valor('acao','=')" class="key-keyboard key-result">
+          <button
+            onclick="calcular('acao', 'r' )"
+            class="key-keyboard key-result"
+          >
             =
           </button>
         </div>
       </div>
     </main>
     <script src="main.js"></script>
+    <script src="themes.js"></script>
   </body>
 </html>
